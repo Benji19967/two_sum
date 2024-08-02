@@ -1,2 +1,3 @@
-# two_sum
+# Two Sum
+
 Solving two sum problem using different languages
