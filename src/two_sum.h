@@ -1,3 +1,5 @@
+#include "../data_structures/ds_c/src/hashmap.h"
+
 typedef struct Pair {
   int value_1;
   int value_2;

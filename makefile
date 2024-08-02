@@ -4,7 +4,7 @@
 TARGET_EXEC := two_sum
 
 BUILD_DIR := ./build
-SRC_DIRS := ./src
+SRC_DIRS := ./src ./data_structures/ds_c/src/
 
 # Find all the C and C++ files we want to compile
 # Note the single quotes around the * expressions. The shell will incorrectly expand 
@@ -57,5 +57,5 @@ clean:
 test: test_two_sum
 
 test_two_sum:
-	gcc tests/test_array.c unity/src/unity.c -o tests/test_array.out && tests/test_array.out
+	gcc tests/test_two_sum.c src/two_sum.c data_structures/ds_c/src/hashmap.c data_structures/ds_c/src/singly_linked_list.c unity/src/unity.c -o tests/test_two_sum.out && tests/test_two_sum.out
 
