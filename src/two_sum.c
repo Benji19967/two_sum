@@ -36,6 +36,9 @@ Pair two_sum(int nums[], int num_elements, int target) {
   return Pair_new(-1, -1);
 }
 
+// TODO: How can I have a main function here (for a CLI) and also the main
+// from tests/test_two_sum.c?
+
 // int main(int argc, char *argv[]) {
 //   // TWO SUM
 //   int nums[argc];
